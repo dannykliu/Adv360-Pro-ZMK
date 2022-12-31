@@ -4,23 +4,23 @@
   "layout": "LAYOUT",
   "layer_names": [
     "base",
-    "Layer #2",
-    "Layer #3",
+    "symbols",
+    "words",
     "numbers"
   ],
   "layers": [
     [
-         "&kp ESC",       "&kp N1", "&kp N2",           "&kp N3",              "&kp N4",              "&kp N5",                   "&none",            "&none",            "&kp N6",        "&kp N7",    "&kp N8",         "&kp N9",           "&kp N0",    "&kp ESC",
-       "&kp LG(Z)",        "&kp Q",  "&kp W",            "&kp F",               "&kp P",               "&kp B",                   "&none",            "&none",             "&kp J",         "&kp L",     "&kp U",          "&kp Y",        "&kp COLON",  "&kp RG(Z)",
-       "&kp ENTER",        "&kp A",  "&kp R",            "&kp S", "&kp LA(RIGHT_ARROW)", "&kp RG(RIGHT_ARROW)",              "&caps_word",        "&kp LCTRL",      "&kp LEFT_ALT",                                "&kp RIGHT_ALT",        "&kp RCTRL", "&caps_word", "&kp RG(LEFT_ARROW)", "&kp RA(LEFT_ARROW)",   "&kp E",     "&kp I",            "&kp O", "&kp ENTER",
-       "&kp LSHFT",        "&kp Z",  "&kp X",            "&kp C",               "&kp D",               "&kp V",                   "&none",            "&none",         "&kp LG(C)",         "&none",     "&none",      "&kp RG(V)",            "&none",      "&none",              "&kp K",              "&kp H", "&kp DOT", "&kp COMMA", "&kp SINGLE_QUOTE", "&kp RSHFT",
-       "&kp LG(S)", "&kp C_VOL_DN", "&tog 3", "&lt 2 LEFT_ARROW",   "&lt 1 RIGHT_ARROW",           "&kp SPACE",           "&kp BACKSPACE", "&kp LEFT_COMMAND", "&kp RIGHT_COMMAND", "&kp BACKSPACE", "&kp SPACE", "&lt 1 UP_ARROW", "&lt 2 DOWN_ARROW",     "&tog 3",       "&kp C_VOL_UP",          "&kp RG(S)"
+         "&kp ESC",       "&kp N1", "&kp N2",           "&kp N3",              "&kp N4",              "&kp N5",               "&kp LG(LS(NUMBER_4))",     "&kp RG(RS(NUMBER_4))",            "&kp N6",        "&kp N7",    "&kp N8",         "&kp N9",           "&kp N0",    "&kp ESC",
+       "&kp LG(Z)",        "&kp Q",  "&kp W",            "&kp F",               "&kp P",               "&kp B",           "&kp LG(LC(LS(NUMBER_4)))", "&kp RG(RC(RS(NUMBER_4)))",             "&kp J",         "&kp L",     "&kp U",          "&kp Y",        "&kp COLON",  "&kp RG(Z)",
+       "&kp ENTER",        "&kp A",  "&kp R",            "&kp S", "&kp LA(RIGHT_ARROW)", "&kp RG(RIGHT_ARROW)",                         "&caps_word",                "&kp LCTRL",      "&kp LEFT_ALT",                                "&kp RIGHT_ALT",        "&kp RCTRL", "&caps_word", "&kp RG(LEFT_ARROW)", "&kp RA(LEFT_ARROW)",   "&kp E",     "&kp I",            "&kp O", "&kp ENTER",
+       "&kp LSHFT",        "&kp Z",  "&kp X",            "&kp C",               "&kp D",               "&kp V",                              "&none",                    "&none",         "&kp LG(C)",         "&none",     "&none",      "&kp RG(V)",            "&none",      "&none",              "&kp K",              "&kp H", "&kp DOT", "&kp COMMA", "&kp SINGLE_QUOTE", "&kp RSHFT",
+       "&kp LG(S)", "&kp C_VOL_DN", "&tog 3", "&lt 2 LEFT_ARROW",   "&lt 1 RIGHT_ARROW",           "&kp SPACE",                      "&kp BACKSPACE",         "&kp LEFT_COMMAND", "&kp RIGHT_COMMAND", "&kp BACKSPACE", "&kp SPACE", "&lt 1 UP_ARROW", "&lt 2 DOWN_ARROW",     "&tog 3",       "&kp C_VOL_UP",          "&kp RG(S)"
     ], [
-              "&trans",        "&trans",          "&trans",        "&trans",              "&trans",              "&trans",                  "&trans", "&trans", "&trans",      "&trans",  "&trans", "&trans",        "&trans",        "&trans",
-              "&trans", "&macro_braces",          "&trans",        "&trans",              "&trans",              "&trans",                  "&trans", "&trans", "&trans",      "&trans",  "&trans", "&trans", "&macro_braces",        "&trans",
-              "&trans",        "&trans", "&macro_brackets", "&macro_parens", "&kp LA(RIGHT_ARROW)", "&kp LG(RIGHT_ARROW)",           "&kp LG(SLASH)", "&trans", "&trans",                           "&trans",        "&trans", "&kp RG(SLASH)", "&kp RG(LEFT_ARROW)", "&kp RA(LEFT_ARROW)", "&macro_parens", "&macro_brackets",   "&kp UNDERSCORE", "&trans",
-              "&trans",        "&trans",          "&trans",        "&trans",           "&kp LG(D)",         "&kp LA(DEL)",                  "&trans", "&trans", "&trans",      "&trans",  "&trans", "&trans",        "&trans",        "&trans",        "&kp RA(DEL)",          "&kp RG(D)",     "&kp MINUS",       "&kp EQUAL", "&kp GREATER_THAN", "&trans",
-       "&kp LG(MINUS)",        "&trans",          "&trans",        "&trans",              "&trans",             "&kp TAB",             "&kp LS(TAB)", "&trans", "&trans", "&kp RS(TAB)", "&kp TAB", "&trans",        "&trans",        "&trans",             "&trans",       "&kp RG(PLUS)"
+              "&trans",        "&trans",          "&trans",        "&trans",              "&trans",              "&trans",                  "&trans", "&trans", "&kp SEMICOLON",    "&kp FSLH", "&kp KP_MULTIPLY",   "&kp PERCENT", "&kp EXCLAMATION",        "&trans",
+              "&trans", "&macro_braces",          "&trans",        "&trans",              "&trans",              "&trans",                  "&trans", "&trans",     "&kp POUND",   "&kp RG(F)",        "&kp PLUS",     "&kp SLASH",   "&macro_braces",        "&trans",
+              "&trans",     "&kp UNDER", "&macro_brackets", "&macro_parens", "&kp LA(RIGHT_ARROW)", "&kp LG(RIGHT_ARROW)",           "&kp LG(SLASH)", "&trans",        "&trans",                                          "&trans",          "&trans", "&kp RG(SLASH)", "&kp RG(LEFT_ARROW)", "&kp RA(LEFT_ARROW)", "&macro_parens", "&macro_brackets",   "&kp UNDERSCORE",  "&none",
+              "&trans",        "&trans",          "&trans",        "&trans",           "&kp LG(D)",         "&kp LA(DEL)",                  "&trans", "&trans",        "&trans",      "&trans",          "&trans",        "&trans",          "&trans",        "&trans",        "&kp RA(DEL)",          "&kp RG(D)",     "&kp MINUS",       "&kp EQUAL", "&kp GREATER_THAN",  "&none",
+       "&kp LG(MINUS)",        "&trans",          "&trans",       "&kp DEL",       "&kp LS(ENTER)",             "&kp TAB",             "&kp LS(TAB)", "&trans",        "&trans", "&kp RS(TAB)",         "&kp TAB", "&kp RS(ENTER)",         "&kp DEL",        "&trans",             "&trans",       "&kp RG(PLUS)"
     ], [
        "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",           "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",
        "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",           "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",
