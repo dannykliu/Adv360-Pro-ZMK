@@ -46,11 +46,11 @@
 
         layer_Layer__2 {
             bindings = <
- &trans  &trans  &trans  &trans  &trans   &trans                 &trans  &trans  &trans       &trans   &trans  &trans  &trans  &trans
- &trans  &trans  &trans  &trans  &trans   &trans                 &trans  &trans  &trans       &trans   &trans  &trans  &trans  &trans
- &trans  &trans  &trans  &trans  &trans   &trans                 &trans  &trans  &trans                        &trans  &trans  &trans   &none   &none   &none  &trans  &trans  &trans
- &trans  &trans  &trans  &trans  &trans   &trans                 &trans  &trans  &trans       &trans   &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
- &trans  &trans  &trans  &trans  &trans  &kp TAB            &kp LS(TAB)  &trans  &trans  &kp RS(TAB)  &kp TAB  &trans  &trans  &trans  &trans  &trans
+        &trans         &trans           &trans         &trans               &trans               &trans                   &trans  &trans  &trans       &trans   &trans  &trans         &trans         &trans
+        &trans  &macro_braces           &trans         &trans               &trans               &trans                   &trans  &trans  &trans       &trans   &trans  &trans  &macro_braces         &trans
+        &trans         &trans  &macro_brackets  &macro_parens  &kp LA(RIGHT_ARROW)  &kp LG(RIGHT_ARROW)            &kp LG(SLASH)  &trans  &trans                        &trans         &trans  &kp RG(SLASH)  &kp RG(LEFT_ARROW)  &kp RA(LEFT_ARROW)  &macro_parens  &macro_brackets    &kp UNDERSCORE  &trans
+        &trans         &trans           &trans         &trans            &kp LG(D)          &kp LA(DEL)                   &trans  &trans  &trans       &trans   &trans  &trans         &trans         &trans         &kp RA(DEL)           &kp RG(D)      &kp MINUS        &kp EQUAL  &kp GREATER_THAN  &trans
+ &kp LG(MINUS)         &trans           &trans         &trans               &trans              &kp TAB              &kp LS(TAB)  &trans  &trans  &kp RS(TAB)  &kp TAB  &trans         &trans         &trans              &trans        &kp RG(PLUS)
             >;
         };
 
