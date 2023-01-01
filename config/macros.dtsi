@@ -1,9 +1,3 @@
-macro_-1: macro_-1{
-compatible = "zmk,behavior-macro";
-label = "macro_-1";
-#binding-cells = <0>;
-bindings = <&kp LEFT_BRACKET>, <&kp MINUS>, <&kp NUMBER_1>, <&kp RIGHT_BRACKET>;
-};
 macro_0: macro_0{
 compatible = "zmk,behavior-macro";
 label = "macro_0";
