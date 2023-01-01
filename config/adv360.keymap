@@ -57,10 +57,10 @@
         layer_words {
             bindings = <
  &trans  &trans  &trans  &trans  &trans  &trans            &trans  &trans  &kp TILDE  &kp AMPERSAND  &kp AT_SIGN  &kp DOLLAR  &kp QUESTION  &trans
- &trans  &trans  &trans  &trans  &trans  &trans            &trans  &trans     &trans         &trans       &trans      &trans        &trans  &trans
- &trans  &trans  &trans  &trans  &trans  &trans            &trans  &trans     &trans                                  &trans        &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
- &trans  &trans  &trans  &trans  &trans  &trans            &trans  &trans     &trans         &trans       &trans      &trans        &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
- &trans  &trans  &trans  &trans  &trans  &trans            &trans  &trans     &trans         &trans       &trans      &trans        &trans  &trans  &trans  &trans
+ &trans  &trans  &trans  &trans  &trans  &trans            &trans  &trans      &none          &none        &none       &none        &trans  &trans
+ &trans  &trans  &trans  &trans  &trans  &trans            &trans  &trans     &trans                                  &trans        &trans  &trans   &none  &macro_kinesis   &none   &none  &trans  &trans
+ &trans  &trans  &trans  &trans  &trans  &trans            &trans  &trans     &trans         &trans       &trans      &trans        &trans  &trans  &trans           &none   &none   &none  &trans  &trans
+ &trans  &trans  &trans  &trans  &trans  &trans            &trans  &trans     &trans         &trans       &trans      &trans        &trans  &trans  &trans          &trans
             >;
         };
 

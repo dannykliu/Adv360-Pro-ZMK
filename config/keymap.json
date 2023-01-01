@@ -23,10 +23,10 @@
        "&kp LG(MINUS)",        "&trans",       "&kp CARET",         "&kp DEL",       "&kp LS(ENTER)",             "&kp TAB",             "&kp LS(TAB)", "&trans",        "&trans", "&kp RS(TAB)",         "&kp TAB", "&kp RS(ENTER)",         "&kp DEL",     "&kp CARET",             "&trans",       "&kp RG(PLUS)"
     ], [
        "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",           "&trans", "&trans", "&kp TILDE", "&kp AMPERSAND", "&kp AT_SIGN", "&kp DOLLAR", "&kp QUESTION", "&trans",
-       "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",           "&trans", "&trans",    "&trans",        "&trans",      "&trans",     "&trans",       "&trans", "&trans",
-       "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",           "&trans", "&trans",    "&trans",                                     "&trans",       "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",
-       "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",           "&trans", "&trans",    "&trans",        "&trans",      "&trans",     "&trans",       "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",
-       "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",           "&trans", "&trans",    "&trans",        "&trans",      "&trans",     "&trans",       "&trans", "&trans", "&trans", "&trans"
+       "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",           "&trans", "&trans",     "&none",         "&none",       "&none",      "&none",       "&trans", "&trans",
+       "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",           "&trans", "&trans",    "&trans",                                     "&trans",       "&trans", "&trans",  "&none", "&macro_kinesis",  "&none",  "&none", "&trans", "&trans",
+       "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",           "&trans", "&trans",    "&trans",        "&trans",      "&trans",     "&trans",       "&trans", "&trans", "&trans",          "&none",  "&none",  "&none", "&trans", "&trans",
+       "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",           "&trans", "&trans",    "&trans",        "&trans",      "&trans",     "&trans",       "&trans", "&trans", "&trans",         "&trans"
     ], [
          "&kp ESC",     "&none",        "&none",        "&none",        "&none",           "&none",            "&none",  "&none",           "&none",        "&none",        "&none",        "&none",     "&none", "&kp ESC",
            "&none", "&kp SLASH", "&kp NUMBER_9", "&kp NUMBER_8", "&kp NUMBER_7", "&kp KP_MULTIPLY",            "&none",  "&none", "&kp KP_MULTIPLY", "&kp NUMBER_7", "&kp NUMBER_8", "&kp NUMBER_9", "&kp SLASH",   "&none",
