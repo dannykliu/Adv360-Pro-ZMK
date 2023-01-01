@@ -46,21 +46,21 @@
 
         layer_symbols {
             bindings = <
-        &trans         &trans           &trans         &trans               &trans               &trans                   &trans  &trans  &kp SEMICOLON     &kp FSLH  &kp KP_MULTIPLY    &kp PERCENT  &kp EXCLAMATION         &trans
-        &trans  &macro_braces           &trans         &trans               &trans               &trans                   &trans  &trans      &kp POUND    &kp RG(F)         &kp PLUS      &kp SLASH    &macro_braces         &trans
-        &trans      &kp UNDER  &macro_brackets  &macro_parens  &kp LA(RIGHT_ARROW)  &kp LG(RIGHT_ARROW)            &kp LG(SLASH)  &trans         &trans                                       &trans           &trans  &kp RG(SLASH)  &kp RG(LEFT_ARROW)  &kp RA(LEFT_ARROW)  &macro_parens  &macro_brackets    &kp UNDERSCORE   &none
-        &trans         &trans           &trans         &trans            &kp LG(D)          &kp LA(DEL)                   &trans  &trans         &trans       &trans           &trans         &trans           &trans         &trans         &kp RA(DEL)           &kp RG(D)      &kp MINUS        &kp EQUAL  &kp GREATER_THAN   &none
- &kp LG(MINUS)         &trans           &trans        &kp DEL        &kp LS(ENTER)              &kp TAB              &kp LS(TAB)  &trans         &trans  &kp RS(TAB)          &kp TAB  &kp RS(ENTER)          &kp DEL         &trans              &trans        &kp RG(PLUS)
+        &trans       &kp EXCL        &kp PRCNT  &kp KP_MULTIPLY             &kp FSLH        &kp SEMICOLON                    &none  &trans  &kp SEMICOLON     &kp FSLH  &kp KP_MULTIPLY    &kp PERCENT  &kp EXCLAMATION         &trans
+        &trans  &macro_braces        &kp SLASH         &kp PLUS            &kp LG(F)             &kp HASH                    &none  &trans      &kp POUND    &kp RG(F)         &kp PLUS      &kp SLASH    &macro_braces         &trans
+        &trans      &kp UNDER  &macro_brackets    &macro_parens  &kp LA(RIGHT_ARROW)  &kp LG(RIGHT_ARROW)            &kp LG(SLASH)  &trans         &trans                                       &trans           &trans  &kp RG(SLASH)  &kp RG(LEFT_ARROW)  &kp RA(LEFT_ARROW)  &macro_parens  &macro_brackets    &kp UNDERSCORE   &none
+        &trans  &kp LESS_THAN        &kp EQUAL        &kp MINUS            &kp LG(D)          &kp LA(DEL)                   &trans  &trans         &trans       &trans           &trans         &trans           &trans         &trans         &kp RA(DEL)           &kp RG(D)      &kp MINUS        &kp EQUAL  &kp GREATER_THAN   &none
+ &kp LG(MINUS)         &trans        &kp CARET          &kp DEL        &kp LS(ENTER)              &kp TAB              &kp LS(TAB)  &trans         &trans  &kp RS(TAB)          &kp TAB  &kp RS(ENTER)          &kp DEL      &kp CARET              &trans        &kp RG(PLUS)
             >;
         };
 
         layer_words {
             bindings = <
- &trans  &trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
- &trans  &trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
- &trans  &trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
- &trans  &trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
- &trans  &trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+ &trans  &trans  &trans  &trans  &trans  &trans            &trans  &trans  &kp TILDE  &kp AMPERSAND  &kp AT_SIGN  &kp DOLLAR  &kp QUESTION  &trans
+ &trans  &trans  &trans  &trans  &trans  &trans            &trans  &trans     &trans         &trans       &trans      &trans        &trans  &trans
+ &trans  &trans  &trans  &trans  &trans  &trans            &trans  &trans     &trans                                  &trans        &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+ &trans  &trans  &trans  &trans  &trans  &trans            &trans  &trans     &trans         &trans       &trans      &trans        &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+ &trans  &trans  &trans  &trans  &trans  &trans            &trans  &trans     &trans         &trans       &trans      &trans        &trans  &trans  &trans  &trans
             >;
         };
 
