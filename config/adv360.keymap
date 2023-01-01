@@ -59,7 +59,7 @@
  &trans  &kp QUESTION     &kp DOLLAR   &kp AT_SIGN             &kp AMPS        &kp TILDE            &trans  &trans        &kp TILDE  &kp AMPERSAND   &kp AT_SIGN     &kp DOLLAR  &kp QUESTION  &trans
  &trans  &macro_start  &macro_vector  &macro_layer         &macro_patch  &macro_manifold            &trans  &trans  &macro_manifold   &macro_patch  &macro_layer  &macro_vector  &macro_start  &trans
  &trans    &macro_len    &macro_self  &macro_curve         &macro_print    &macro_return            &trans  &trans           &trans                                      &trans        &trans  &trans  &macro_return         &macro_print  &macro_curve  &macro_self  &macro_len  &trans
- &trans      &macro_0       &macro_0      &macro_i  &macro_triple_quote           &trans            &trans  &trans           &trans         &trans        &trans         &trans        &trans  &trans         &trans  &macro_triple_quote      &macro_i     &macro_0    &macro_0  &trans
+ &trans      &macro_1       &macro_0      &macro_i  &macro_triple_quote           &trans            &trans  &trans           &trans         &trans        &trans         &trans        &trans  &trans         &trans  &macro_triple_quote      &macro_i     &macro_0    &macro_1  &trans
  &trans        &trans         &trans        &trans               &trans           &trans            &trans  &trans           &trans         &trans        &trans         &trans        &trans  &trans         &trans               &trans
             >;
         };
