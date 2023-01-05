@@ -39,41 +39,41 @@
 
         default_layer {
             bindings = <
-   &kp ESC            &kp N1             &kp N2            &kp N3          &kp N4     &kp N5                   &kp C_VOLUME_DOWN           &kp C_VOLUME_UP             &kp N6         &kp N7     &kp N8          &kp N9            &kp N0            &kp ESC
-   &kp TAB             &kp Q              &kp W             &kp F           &kp P      &kp B            &kp LG(LC(LS(NUMBER_4)))  &kp RG(RC(RS(NUMBER_4)))              &kp J          &kp L      &kp U           &kp Y         &kp COLON            &kp TAB
- &kp ENTER             &kp A              &kp R             &kp S           &kp T      &kp G                          &caps_word                 &kp LG(C)       &kp LEFT_ALT                             &kp RIGHT_ALT         &kp RG(V)         &caps_word             &kp M      &kp N    &kp E      &kp I             &kp O  &kp ENTER
- &kp LSHFT             &kp Z              &kp X             &kp C           &kp D      &kp V                               &none                     &none          &kp LCTRL          &none      &none       &kp RCTRL             &none              &none             &kp K      &kp H  &kp DOT  &kp COMMA  &kp SINGLE_QUOTE  &kp RSHFT
- &kp LG(S)  &lt 4 LEFT_ARROW  &lt 3 RIGHT_ARROW  &lt 2 DOWN_ARROW  &lt 1 UP_ARROW  &kp SPACE                       &kp BACKSPACE          &kp LEFT_COMMAND  &kp RIGHT_COMMAND  &kp BACKSPACE  &kp SPACE  &lt 1 UP_ARROW  &lt 2 DOWN_ARROW  &lt 3 RIGHT_ARROW  &lt 4 LEFT_ARROW  &kp RG(S)
+   &kp ESC     &kp N1      &kp N2            &kp N3             &kp N4     &kp N5                   &kp C_VOLUME_DOWN           &kp C_VOLUME_UP             &kp N6         &kp N7     &kp N8          &kp N9            &kp N0     &kp ESC
+   &kp TAB      &kp Q       &kp W             &kp F              &kp P      &kp B            &kp LG(LC(LS(NUMBER_4)))  &kp RG(RC(RS(NUMBER_4)))              &kp J          &kp L      &kp U           &kp Y         &kp COLON     &kp TAB
+ &kp ENTER      &kp A       &kp R             &kp S              &kp T      &kp G                               &none                 &kp LG(C)       &kp LEFT_ALT                             &kp RIGHT_ALT         &kp RG(V)       &none      &kp M      &kp N    &kp E      &kp I             &kp O  &kp ENTER
+ &kp LSHFT      &kp Z       &kp X             &kp C              &kp D      &kp V                               &none                     &none          &kp LCTRL          &none      &none       &kp RCTRL             &none       &none      &kp K      &kp H  &kp DOT  &kp COMMA  &kp SINGLE_QUOTE  &kp RSHFT
+ &kp LG(S)  &kp RG(Z)  &caps_word  &lt 3 LEFT_ARROW  &lt 1 RIGHT_ARROW  &kp SPACE                       &kp BACKSPACE          &kp LEFT_COMMAND  &kp RIGHT_COMMAND  &kp BACKSPACE  &kp SPACE  &lt 1 UP_ARROW  &lt 3 DOWN_ARROW  &caps_word  &kp RG(Z)  &kp RG(S)
             >;
         };
 
         layer_symbols {
             bindings = <
-         &none       &kp EXCL        &kp PRCNT  &kp KP_MULTIPLY             &kp FSLH        &kp SEMICOLON                    &none   &none  &kp SEMICOLON   &kp FSLH  &kp KP_MULTIPLY    &kp PERCENT  &kp EXCLAMATION          &none
-     &kp LG(Z)  &macro_braces        &kp SLASH         &kp PLUS            &kp LG(F)             &kp HASH                    &none   &none      &kp POUND  &kp RG(F)         &kp PLUS      &kp SLASH    &macro_braces      &kp RG(Z)
- &kp LS(LG(Z))      &kp UNDER  &macro_brackets    &macro_parens  &kp LA(RIGHT_ARROW)  &kp LG(RIGHT_ARROW)            &kp LG(SLASH)  &trans         &trans                                     &trans           &trans  &kp RG(SLASH)  &kp RG(LEFT_ARROW)  &kp RA(LEFT_ARROW)  &macro_parens  &macro_brackets    &kp UNDERSCORE  &kp RS(LG(Z))
-         &none  &kp LESS_THAN        &kp EQUAL        &kp MINUS            &kp LG(D)          &kp LA(DEL)                   &trans  &trans         &trans     &trans           &trans         &trans           &trans         &trans         &kp RA(DEL)           &kp RG(D)      &kp MINUS        &kp EQUAL  &kp GREATER_THAN          &none
- &kp LG(MINUS)          &none        &kp CARET          &kp DEL        &kp LS(ENTER)                &to 0                   &trans  &trans         &trans     &trans            &to 0  &kp RS(ENTER)          &kp DEL      &kp CARET               &none        &kp RG(PLUS)
+         &none       &kp EXCL        &kp PRCNT  &kp KP_MULTIPLY             &kp FSLH        &kp SEMICOLON                           &none                 &none  &kp SEMICOLON   &kp FSLH  &kp KP_MULTIPLY    &kp PERCENT  &kp EXCLAMATION      &none
+     &kp LG(Z)  &macro_braces        &kp SLASH         &kp PLUS            &kp LG(F)             &kp HASH            &kp LG(LS(NUMBER_4))  &kp RG(RS(NUMBER_4))      &kp POUND  &kp RG(F)         &macro_0       &macro_1         &macro_i      &none
+ &kp LS(LG(Z))      &kp UNDER  &macro_brackets    &macro_parens  &kp LA(RIGHT_ARROW)  &kp LG(RIGHT_ARROW)                           &none                &trans         &trans                                     &trans           &trans      &none  &kp RG(LEFT_ARROW)  &kp RA(LEFT_ARROW)  &kp RG(SLASH)            &none  &kp UNDERSCORE   &none
+         &none  &kp LESS_THAN        &kp EQUAL        &kp MINUS          &kp LA(DEL)            &kp LG(D)                          &trans                &trans         &trans     &trans           &trans         &trans           &trans     &trans           &kp RG(D)   &kp RA(BACKSPACE)  &macro_parens  &macro_brackets   &macro_braces   &none
+ &kp LG(MINUS)          &none        &kp CARET          &kp DEL        &kp LS(ENTER)                &to 0                         &kp DEL                &trans         &trans    &kp DEL            &to 0  &kp RS(ENTER)    &kp RS(ENTER)  &kp CARET               &none        &kp RG(PLUS)
             >;
         };
 
         layer_words {
             bindings = <
-  &none  &kp QUESTION     &kp DOLLAR   &kp AT_SIGN             &kp AMPS        &kp TILDE             &none   &none        &kp TILDE  &kp AMPERSAND   &kp AT_SIGN     &kp DOLLAR  &kp QUESTION   &none
-  &none  &macro_start  &macro_vector  &macro_layer         &macro_patch  &macro_manifold             &none   &none  &macro_manifold   &macro_patch  &macro_layer  &macro_vector  &macro_start   &none
-  &none    &macro_len    &macro_self  &macro_curve         &macro_print    &macro_return             &none  &trans           &trans                                      &trans        &trans   &none  &macro_return         &macro_print  &macro_curve  &macro_self  &macro_len   &none
-  &none      &macro_1       &macro_0      &macro_i  &macro_triple_quote            &none            &trans  &trans           &trans         &trans        &trans         &trans        &trans  &trans          &none  &macro_triple_quote      &macro_i     &macro_0    &macro_1   &none
-  &none         &none          &none         &none                &none            &to 0            &trans  &trans           &trans         &trans         &to 0          &none         &none   &none          &none                &none
+  &none  &kp QUESTION     &kp DOLLAR   &kp AT_SIGN             &kp AMPS        &kp TILDE             &none   &none        &kp TILDE  &kp AMPERSAND   &kp AT_SIGN     &kp DOLLAR   &kp QUESTION   &none
+  &none  &macro_start  &macro_vector  &macro_layer         &macro_patch  &macro_manifold             &none   &none  &macro_manifold   &macro_patch  &macro_layer  &macro_vector   &macro_start   &none
+  &none    &macro_len    &macro_self  &macro_curve         &macro_print    &macro_return             &none  &trans           &trans                                      &trans         &trans   &none  &macro_return         &macro_print  &macro_curve  &macro_self  &macro_len   &none
+  &none      &macro_1       &macro_0      &macro_i  &macro_triple_quote            &none            &trans  &trans           &trans         &trans        &trans         &trans         &trans  &trans          &none  &macro_triple_quote      &macro_i     &macro_0    &macro_1   &none
+  &none         &none          &none         &none                &none            &to 0            &trans  &trans           &trans         &trans         &to 0  &kp RS(ENTER)  &kp RS(ENTER)   &none          &none                &none
             >;
         };
 
         layer_numbers {
             bindings = <
-   &kp ESC      &none         &none         &none         &none            &none             &none   &none            &none         &none         &none         &none      &none  &kp ESC
-     &none  &kp SLASH  &kp NUMBER_9  &kp NUMBER_8  &kp NUMBER_7  &kp KP_MULTIPLY             &none   &none  &kp KP_MULTIPLY  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp SLASH    &none
- &kp ENTER  &kp MINUS  &kp NUMBER_6  &kp NUMBER_5  &kp NUMBER_4         &kp PLUS             &none   &none            &none                                     &none      &none    &none      &kp PLUS  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp MINUS  &kp ENTER
-     &none  &kp CARET  &kp NUMBER_3  &kp NUMBER_2  &kp NUMBER_1     &kp NUMBER_0            &trans  &trans            &none        &trans        &trans         &none     &trans   &trans  &kp NUMBER_0  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp CARET      &none
-     &none      &none         &none         &none         &none            &to 0             &none   &none            &none         &none         &to 0         &none      &none    &none         &none         &none
+              &kp ESC      &none         &none         &none         &none            &none             &none   &none        &kp TILDE      &kp AMPS   &kp AT_SIGN     &kp DOLLAR      &kp QUESTION            &kp ESC
+     &kp LEFT_BRACKET  &kp SLASH  &kp NUMBER_9  &kp NUMBER_8  &kp NUMBER_7  &kp KP_MULTIPLY             &none   &none  &kp KP_MULTIPLY  &kp NUMBER_7  &kp NUMBER_8   &kp NUMBER_9         &kp SLASH  &kp RIGHT_BRACKET
+ &kp LEFT_PARENTHESIS  &kp MINUS  &kp NUMBER_6  &kp NUMBER_5  &kp NUMBER_4         &kp PLUS             &none   &none            &none                                      &none             &none              &none      &kp PLUS  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp MINUS  &kp RIGHT_PARENTHESIS
+       &kp LEFT_BRACE  &kp EQUAL  &kp NUMBER_3  &kp NUMBER_2  &kp NUMBER_1     &kp NUMBER_0            &trans  &trans            &none        &trans        &trans          &none            &trans             &trans  &kp NUMBER_0  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp EQUAL        &kp RIGHT_BRACE
+                &none      &none         &none         &none         &none            &to 0             &none   &none            &none         &none         &to 0  &kp LESS_THAN  &kp GREATER_THAN          &kp CARET         &none         &none
             >;
         };
 
