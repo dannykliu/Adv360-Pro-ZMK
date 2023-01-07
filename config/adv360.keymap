@@ -49,7 +49,7 @@
 
         layer_symbols {
             bindings = <
-  &none       &kp EXCL        &kp PRCNT  &kp KP_MULTIPLY             &kp FSLH        &kp SEMICOLON                           &none                 &none  &kp SEMICOLON   &kp FSLH  &kp KP_MULTIPLY    &kp PERCENT  &kp EXCLAMATION          &none
+  &none       &kp EXCL        &kp PRCNT  &kp KP_MULTIPLY             &kp FSLH        &kp SEMICOLON                   &kp BACKSLASH         &kp BACKSLASH  &kp SEMICOLON   &kp FSLH  &kp KP_MULTIPLY    &kp PERCENT  &kp EXCLAMATION          &none
   &none       &macro_i         &macro_1         &macro_0            &kp LG(F)             &kp HASH            &kp LG(LS(NUMBER_4))  &kp RG(RS(NUMBER_4))      &kp POUND  &kp RG(F)         &macro_0       &macro_1         &macro_i          &none
   &none      &kp UNDER        &kp LG(Z)    &kp LG(SLASH)  &kp LA(RIGHT_ARROW)  &kp LG(RIGHT_ARROW)                           &none                &trans         &trans                                     &trans           &trans          &none  &kp RG(LEFT_ARROW)  &kp RA(LEFT_ARROW)  &kp RG(SLASH)        &kp RG(Z)  &kp UNDERSCORE   &none
   &none  &macro_braces  &macro_brackets    &macro_parens          &kp LA(DEL)            &kp LG(D)                          &trans                &trans         &trans     &trans           &trans         &trans           &trans         &trans           &kp RG(D)   &kp RA(BACKSPACE)  &macro_parens  &macro_brackets   &macro_braces   &none
