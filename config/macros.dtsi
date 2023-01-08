@@ -1,3 +1,27 @@
+macro_pwd: macro_pwd{
+compatible = "zmk,behavior-macro";
+label = "macro_pwd";
+#binding-cells = <0>;
+bindings = <&kp TILDE>, <&kp TILDE>, <&kp TILDE>;
+};
+macro_start_enter: macro_start_enter{
+compatible = "zmk,behavior-macro";
+label = "macro_start_enter";
+#binding-cells = <0>;
+bindings = <&kp RG(LEFT_ARROW)>, <&kp ENTER>;
+};
+macro_end_enter: macro_end_enter{
+compatible = "zmk,behavior-macro";
+label = "macro_end_enter";
+#binding-cells = <0>;
+bindings = <&kp LG(RIGHT_ARROW)>, <&kp ENTER>;
+};
+macro_parens2: macro_parens2{
+compatible = "zmk,behavior-macro";
+label = "macro_parens2";
+#binding-cells = <0>;
+bindings = <&kp LEFT_PARENTHESIS>, <&kp RIGHT_PARENTHESIS>;
+};
 macro_1: macro_1{
 compatible = "zmk,behavior-macro";
 label = "macro_1";
