@@ -8,7 +8,7 @@ macro_start_enter: macro_start_enter{
 compatible = "zmk,behavior-macro";
 label = "macro_start_enter";
 #binding-cells = <0>;
-bindings = <&kp RG(LEFT_ARROW)>, <&kp ENTER>;
+bindings = <&kp RG(LEFT_ARROW)>, <&kp ENTER>, <&kp UP_ARROW>;
 };
 macro_end_enter: macro_end_enter{
 compatible = "zmk,behavior-macro";
