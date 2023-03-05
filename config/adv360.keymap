@@ -26,7 +26,7 @@
         compatible = "zmk,behavior-hold-tap";
         label = "HOMEROW_MODS";
         #binding-cells = <2>;
-        tapping-term-ms = <200>;
+        tapping-term-ms = <100>;
         quick_tap_ms = <175>;
         flavor = "tap-preferred";
         bindings = <&kp>, <&kp>;
@@ -40,7 +40,7 @@
         default_layer {
             bindings = <
                   &kp ESC         &kp N1         &kp N2  &kp N3  &kp N4       &kp N5                   &kp C_VOLUME_DOWN           &kp C_VOLUME_UP             &kp N6         &kp N7       &kp N8     &kp N9     &kp N0         &kp ESC
-           &macro_parens2          &kp Q          &kp W   &kp F   &kp P        &kp B            &kp LG(LC(LS(NUMBER_4)))  &kp RG(RC(RS(NUMBER_4)))              &kp J          &kp L        &kp U      &kp Y  &kp COLON  &macro_parens2
+                  &ht_tp RIGHT_PARENTHESIS LEFT_PARENTHESIS          &kp Q          &kp W   &kp F   &kp P        &kp B            &kp LG(LC(LS(NUMBER_4)))  &kp RG(RC(RS(NUMBER_4)))              &kp J          &kp L        &kp U      &kp Y  &kp COLON  &ht_tp RIGHT_PARENTHESIS LEFT_PARENTHESIS
                 &kp ENTER          &kp A          &kp R   &kp S   &kp T        &kp G                        &kp LEFT_ALT                 &kp LG(C)          &kp LG(V)                              &kp RG(V)  &kp RG(C)   &kp RIGHT_ALT         &kp M      &kp N    &kp E      &kp I             &kp O             &kp ENTER
  &mt LEFT_SHIFT LG(SLASH)          &kp Z          &kp X   &kp C   &kp D        &kp V                               &none                     &none          &kp LCTRL          &none        &none  &kp RCTRL      &none           &none         &kp K      &kp H  &kp DOT  &kp COMMA  &kp SINGLE_QUOTE  &mt RSHIFT RG(SLASH)
                 &kp LG(S)  &kp LG(MINUS)  &kp LS(ENTER)   &sl 2   &sl 1  &lt 1 SPACE                       &kp BACKSPACE          &kp LEFT_COMMAND  &kp RIGHT_COMMAND  &kp BACKSPACE  &lt 1 SPACE      &sl 1      &sl 2   &kp RS(ENTER)  &kp RG(PLUS)  &kp RG(S)
@@ -50,7 +50,7 @@
         layer_symbols {
             bindings = <
           &trans         &kp EXCL        &kp PRCNT        &kp HASH        &kp BACKSLASH        &kp SEMICOLON                        &kp PIPE              &kp PIPE     &kp SEMICOLON       &kp BACKSLASH      &kp HASH  &kp PERCENT  &kp EXCLAMATION         &trans
-   &macro_parens        &kp EQUAL         &kp PLUS    &kp UP_ARROW  &kp LG(RIGHT_ARROW)     &macro_end_enter            &kp LG(LS(NUMBER_4))  &kp RG(RS(NUMBER_4))  &macro_end_enter  &kp RG(LEFT_ARROW)  &kp UP_ARROW     &kp PLUS        &kp EQUAL  &macro_parens
+   &ht_tp RIGHT_BRACKET LEFT_BRACKET        &kp EQUAL         &kp PLUS    &kp UP_ARROW  &kp LG(RIGHT_ARROW)     &macro_end_enter            &kp LG(LS(NUMBER_4))  &kp RG(RS(NUMBER_4))  &macro_end_enter  &kp RG(LEFT_ARROW)  &kp UP_ARROW     &kp PLUS        &kp EQUAL  &ht_tp RIGHT_BRACKET LEFT_BRACKET
  &macro_brackets        &kp UNDER  &kp RIGHT_ARROW  &kp DOWN_ARROW       &kp LEFT_ARROW  &kp LA(RIGHT_ARROW)                           &none             &kp LG(F)            &trans                                         &trans        &kp RG(F)          &none  &kp RA(LEFT_ARROW)  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW   &kp UNDERSCORE  &macro_brackets
    &macro_braces  &kp KP_MULTIPLY        &kp MINUS       &kp SLASH            &kp LG(D)          &kp LA(DEL)                          &trans                &trans            &trans              &trans        &trans       &trans           &trans         &trans   &kp RA(BACKSPACE)       &kp RG(D)       &kp SLASH        &kp MINUS  &kp KP_MULTIPLY    &macro_braces
            &none            &none    &kp LS(LG(Z))       &kp LG(Z)              &kp DEL              &kp TAB                     &kp LS(TAB)                &trans            &trans         &kp RS(TAB)       &kp TAB      &kp DEL        &kp RG(Z)  &kp RS(RG(Z))               &none           &none
@@ -60,7 +60,7 @@
         layer_numbers {
             bindings = <
               &kp ESC  &kp QUESTION    &kp DOLLAR            &kp AT       &kp AMPS            &kp TILDE             &none   &none   &kp TILDE      &kp AMPS   &kp AT_SIGN     &kp DOLLAR      &kp QUESTION                &kp ESC
- &kp LEFT_PARENTHESIS      &macro_0  &kp NUMBER_9      &kp NUMBER_8   &kp NUMBER_7           &macro_pwd             &none   &none  &macro_pwd  &kp NUMBER_7  &kp NUMBER_8   &kp NUMBER_9          &macro_0  &kp RIGHT_PARENTHESIS
+ &ht_tp RIGHT_BRACE LEFT_BRACE      &macro_0  &kp NUMBER_9      &kp NUMBER_8   &kp NUMBER_7           &macro_pwd             &none   &none  &macro_pwd  &kp NUMBER_7  &kp NUMBER_8   &kp NUMBER_9          &macro_0  &kp RIGHT_PARENTHESIS
      &kp LEFT_BRACKET      &macro_1  &kp NUMBER_6      &kp NUMBER_5   &kp NUMBER_4  &macro_triple_quote             &none   &none       &none                                      &none             &none                  &none  &macro_triple_quote  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &macro_1  &kp RIGHT_BRACKET
        &kp LEFT_BRACE      &macro_i  &kp NUMBER_3      &kp NUMBER_2   &kp NUMBER_1         &kp NUMBER_0            &trans  &trans       &none        &trans        &trans          &none            &trans                 &trans         &kp NUMBER_0  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &macro_i    &kp RIGHT_BRACE
                 &none         &none     &kp CARET  &kp GREATER_THAN  &kp LESS_THAN               &trans            &trans   &none       &none        &trans        &trans  &kp LESS_THAN  &kp GREATER_THAN              &kp CARET                &none         &none
