@@ -16,12 +16,6 @@ label = "macro_end_enter";
 #binding-cells = <0>;
 bindings = <&kp LG(RIGHT_ARROW)>, <&kp ENTER>;
 };
-macro_parens2: macro_parens2{
-compatible = "zmk,behavior-macro";
-label = "macro_parens2";
-#binding-cells = <0>;
-bindings = <&kp LEFT_PARENTHESIS>, <&kp RIGHT_PARENTHESIS>;
-};
 macro_1: macro_1{
 compatible = "zmk,behavior-macro";
 label = "macro_1";
@@ -122,17 +116,17 @@ macro_braces: macro_braces{
 compatible = "zmk,behavior-macro";
 label = "macro_braces";
 #binding-cells = <0>;
-bindings = <&kp LBRC>, <&kp RBRC>, <&kp LEFT>;
+bindings = <&kp LBRC>, <&kp RBRC>;
 };
 macro_parens: macro_parens{
 compatible = "zmk,behavior-macro";
 label = "macro_parens";
 #binding-cells = <0>;
-bindings = <&kp LPAR>, <&kp RPAR>, <&kp LEFT>;
+bindings = <&kp LPAR>, <&kp RPAR>;
 };
 macro_brackets: macro_brackets{
 compatible = "zmk,behavior-macro";
 label = "macro_brackets";
 #binding-cells = <0>;
-bindings = <&kp LBKT>, <&kp RBKT>, <&kp LEFT>;
+bindings = <&kp LBKT>, <&kp RBKT>;
 };
