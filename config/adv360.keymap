@@ -69,21 +69,11 @@
 
         layer_numbers {
             bindings = <
-              &kp ESC  &kp QUESTION    &kp DOLLAR            &kp AT       &kp AMPS            &kp TILDE             &none   &none   &kp TILDE      &kp AMPS   &kp AT_SIGN     &kp DOLLAR      &kp QUESTION                &kp ESC
- &ht RIGHT_BRACE LEFT_BRACE      &macro_0  &kp NUMBER_9      &kp NUMBER_8   &kp NUMBER_7           &macro_pwd             &none   &none  &macro_pwd  &kp NUMBER_7  &kp NUMBER_8   &kp NUMBER_9          &macro_0   &ht RIGHT_BRACE LEFT_BRACE 
-     &macro_brackets      &macro_1  &kp NUMBER_6      &kp NUMBER_5   &kp NUMBER_4  &macro_triple_quote             &none   &none       &none                                      &none             &none                  &none  &macro_triple_quote  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &macro_1  &macro_brackets
-       &macro_braces     &macro_i  &kp NUMBER_3      &kp NUMBER_2   &kp NUMBER_1         &kp NUMBER_0            &trans  &trans       &none        &trans        &trans          &none            &trans                 &trans         &kp NUMBER_0  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &macro_i    &macro_braces
-                &none         &none     &kp CARET  &kp GREATER_THAN  &kp LESS_THAN               &trans            &trans   &none       &none        &trans        &trans  &kp LESS_THAN  &kp GREATER_THAN              &kp CARET                &none         &none
-            >;
-        };
-
-        layer_lighting {
-            bindings = <
- &trans  &bt BT_SEL 4    &bt BT_SEL 3    &bt BT_SEL 2     &bt BT_SEL 1  &bt BT_SEL 0                            &trans      &trans     &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2     &bt BT_SEL 3  &bt BT_SEL 4                  &trans
- &trans        &trans          &trans    &kp UP_ARROW           &trans        &trans                            &trans      &trans            &none  &kp UP_ARROW        &trans           &trans        &trans                  &trans
- &trans        &trans  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW        &trans            &rgb_ug RGB_MEFS_CMD 5  &bt BT_CLR           &trans                                       &trans    &bt BT_CLR  &rgb_ug RGB_MEFS_CMD 5   &none  &kp DOWN_ARROW  &kp RIGHT_ARROW  &trans  &trans  &trans
- &trans        &trans          &trans          &trans           &trans        &trans                            &trans      &trans  &rgb_ug RGB_TOG        &trans        &trans  &rgb_ug RGB_TOG        &trans                  &trans  &trans          &trans           &trans  &trans  &trans  &trans
- &trans        &trans          &trans      &bl BL_DEC       &bl BL_INC         &to 0                        &bl BL_TOG      &trans           &trans    &bl BL_TOG         &to 0       &bl BL_INC    &bl BL_DEC                  &trans  &trans          &trans
+                  &kp ESC           &kp QUESTION    &kp DOLLAR        &kp AT            &kp AMPS            &kp TILDE                              &none   &none                                   &kp TILDE            &kp AMPS          &kp AT_SIGN       &kp DOLLAR      &kp QUESTION    &kp ESC
+                  &ht RBRC LBRC     &macro_0        &kp NUMBER_9      &kp NUMBER_8      &kp NUMBER_7        &macro_pwd                              &none   &none                                  &macro_pwd           &kp NUMBER_7      &kp NUMBER_8      &kp NUMBER_9    &macro_0        &ht RBRC LBRC
+                  &macro_brackets   &macro_1        &kp NUMBER_6      &kp NUMBER_5      &kp NUMBER_4        &macro_triple_quote     &none   &none  &none  &none  &none   &none                     &macro_triple_quote  &kp NUMBER_4      &kp NUMBER_5      &kp NUMBER_6    &macro_1        &macro_brackets
+                  &macro_braces     &macro_i        &kp NUMBER_3      &kp NUMBER_2      &kp NUMBER_1        &kp NUMBER_0            &trans  &trans  &none  &trans  &trans &none  &trans &trans     &kp NUMBER_0         &kp NUMBER_1      &kp NUMBER_2      &kp NUMBER_3    &macro_i        &macro_braces
+                  &none             &none           &kp CARET         &kp GREATER_THAN  &kp LESS_THAN                               &trans  &trans  &none &none  &trans   &trans                                        &kp LESS_THAN     &kp GREATER_THAN  &kp CARET       &none           &none
             >;
         };
 
