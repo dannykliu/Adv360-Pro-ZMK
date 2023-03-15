@@ -52,8 +52,8 @@
                   &kp ESC                     &kp N9         &kp N7          &kp N1  &kp N3       &kp N5           &kp C_VOLUME_DOWN                                       &kp C_VOLUME_UP                     &kp N4    &kp N2       &kp N0       &kp N6         &kp N8             &kp ESC
                   &ht RPAR LPAR               &kp Q          &kp W           &kp F   &kp P        &kp B            &kp LG(LC(LS(NUMBER_4)))                                &kp RG(RC(RS(NUMBER_4)))            &kp J     &kp L        &kp U        &kp Y          &kp COLON          &ht RPAR LPAR
                   &kp ENTER                   &kp A          &kp R           &kp S   &kp T        &kp G            &kp LEFT_ALT   &kp LG(C) &kp LG(V) &kp RG(V) &kp RG(C)  &kp RIGHT_ALT                       &kp M     &kp N        &kp E        &kp I          &kp O              &kp ENTER
-                  &mt LEFT_SHIFT LG(SLASH)    &kp Z          &kp X           &kp C   &kp D        &kp V                &none  &none  &kp LCTRL  &none &none  &kp RCTRL &none &none                             &kp K     &kp H        &kp DOT      &kp COMMA      &kp SINGLE_QUOTE   &mt RSHIFT RG(SLASH)
-                  &kp LG(S)                   &kp LG(S)  &kp LS(ENTER)   &sl 2   &sl 1                  &kp SPACE   &kp BACKSPACE  &kp LEFT_COMMAND  &kp RIGHT_COMMAND  &kp BACKSPACE  &kp SPACE               &sl 1        &sl 2        &kp RS(ENTER)  &kp RG(S)       &kp RG(S)
+                  &htl 1 UNDER                &kp Z          &kp X           &kp C   &kp D        &kp V                &none  &none  &kp LCTRL  &none &none  &kp RCTRL &none &none                             &kp K     &kp H        &kp DOT      &kp COMMA      &kp SINGLE_QUOTE   &htl 1 UNDER
+                  &kp LEFT_SHIFT              &kp LG(SLASH)  &kp LS(ENTER)   &sl 2   &sl 1                  &kp SPACE   &kp BACKSPACE  &kp LEFT_COMMAND  &kp RIGHT_COMMAND  &kp BACKSPACE  &kp SPACE                     &sl 1        &sl 2        &kp RS(ENTER)  &kp RG(SLASH)      &kp RSHIFT
             >;
         };
 
@@ -63,7 +63,7 @@
                   &ht RBKT LBKT    &kp EQUAL        &kp PLUS         &kp UP_ARROW     &kp LG(RIGHT_ARROW)   &macro_end_enter            &kp LG(LS(NUMBER_4))  &kp RG(RS(NUMBER_4))                &macro_end_enter    &kp RG(LEFT_ARROW)  &kp UP_ARROW      &kp PLUS         &kp EQUAL        &ht RBKT LBKT
                   &macro_parens    &kp UNDER        &kp RIGHT_ARROW  &kp DOWN_ARROW   &kp LEFT_ARROW        &kp LA(RIGHT_ARROW)         &none  &kp LG(F)   &trans  &trans  &kp RG(F)  &none       &kp RA(LEFT_ARROW)  &kp LEFT_ARROW      &kp DOWN_ARROW    &kp RIGHT_ARROW  &kp UNDERSCORE   &macro_parens
                   &macro_parens2   &kp KP_MULTIPLY  &kp MINUS        &kp SLASH        &kp LG(D)             &kp LA(DEL)            &trans  &trans  &trans  &trans  &trans &trans &trans &trans    &kp RA(BACKSPACE)   &kp RG(D)           &kp SLASH         &kp MINUS        &kp KP_MULTIPLY  &macro_parens2
-                  &none            &none            &kp LS(LG(Z))    &kp LG(Z)        &kp DEL                                       &kp TAB  &kp LS(TAB)  &trans   &trans &kp RS(TAB)  &kp TAB    &kp DEL             &kp RG(Z)           &kp RS(RG(Z))                      &none            &none
+                  &kp LG(S)        &none            &kp LS(LG(Z))    &kp LG(Z)        &kp DEL                                       &kp TAB  &kp LS(TAB)  &trans   &trans &kp RS(TAB)  &kp TAB    &kp DEL             &kp RG(Z)           &kp RS(RG(Z))                      &none            &kp LG(S)
             >;
         };
 
