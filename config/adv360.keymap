@@ -61,13 +61,13 @@
             bindings = <
                   &kp ESC          &kp EXCL         &kp PRCNT        &kp HASH             &kp BACKSLASH         &kp SEMICOLON                        &kp PIPE              &kp PIPE                   &kp SEMICOLON        &kp BACKSLASH        &kp HASH             &kp PERCENT   &kp EXCLAMATION  &kp ESC
                   &ht RBRC LBRC    &kp EQUAL        &kp PLUS         &kp LG(LEFT_ARROW)   &kp LG(RIGHT_ARROW)   &macro_start_enter            &kp LG(LS(NUMBER_4))  &kp RG(RS(NUMBER_4))              &macro_start_enter   &kp RG(RIGHT_ARROW)  &kp RG(LEFT_ARROW)   &kp PLUS      &kp EQUAL        &ht RBRC LBRC
-                  &kp PLUS         &kp UNDER        &kp MINUS        &kp LA(LEFT_ARROW)   &kp LA(RIGHT_ARROW)   &macro_end_enter         &none  &kp LG(F)   &trans  &trans  &kp RG(F)  &none          &macro_end_enter     &kp RA(RIGHT_ARROW)  &kp RA(LEFT_ARROW)   &kp MINUS     &kp UNDER        &ht PLUS
-                  &kp MINUS        &kp KP_MULTIPLY  &kp SLASH        &kp LA(BACKSPACE)    &kp LA(DEL)           &kp LG(D)            &trans  &trans  &trans  &trans  &trans &trans &trans &trans      &kp LG(D)            &kp RA(DEL)          &kp RA(BACKSPACE)    &kp SLASH     &kp KP_MULTIPLY  &ht MINUS
+                  &kp PLUS         &kp UNDER        &kp MINUS        &kp LA(LEFT_ARROW)   &kp LA(RIGHT_ARROW)   &macro_end_enter         &none  &kp LG(F)   &trans  &trans  &kp RG(F)  &none          &macro_end_enter     &kp RA(RIGHT_ARROW)  &kp RA(LEFT_ARROW)   &kp MINUS     &kp UNDER        &kp PLUS
+                  &kp MINUS        &kp KP_MULTIPLY  &kp SLASH        &kp LA(BACKSPACE)    &kp LA(DEL)           &kp LG(D)            &trans  &trans  &trans  &trans  &trans &trans &trans &trans      &kp LG(D)            &kp RA(DEL)          &kp RA(BACKSPACE)    &kp SLASH     &kp KP_MULTIPLY  &kp MINUS
                   &kp LG(A)        &kp LS(LG(Z))    &kp LG(Z)        &kp UP_ARROW         &kp DOWN_ARROW                                  &kp TAB  &kp LS(TAB)  &trans   &trans &kp RS(TAB)  &kp TAB                       &kp DOWN_ARROW       &kp UP_ARROW         &kp RG(Z)     &kp RS(RG(Z))    &kp RG(S)
             >;
         };
 
-        layer_numbers {
+        layer_shift {
             bindings = <
                   &kp ESC           &kp QUESTION         &kp DOLLAR       &kp AT            &kp AMPS            &kp TILDE                              &none   &none                              &kp TILDE     &kp AMPS          &kp AT_SIGN       &kp DOLLAR           &kp QUESTION         &kp ESC
                   &ht RBKT LBKT     &kp LS(Q)            &kp LS(W)        &kp LS(F)         &kp LS(P)           &kp LS(B)                             &none   &none                               &kp RS(J)     &kp RS(L)         &kp RS(U)         &kp RS(Y)            &kp SEMICOLON        &ht RBKT LBKT
