@@ -67,7 +67,7 @@
             >;
         };
 
-        layer_shift {
+        layer_numbers {
             bindings = <
                   &kp ESC           &kp QUESTION         &kp DOLLAR       &kp AT            &kp AMPS            &kp TILDE                              &none   &none                              &kp TILDE     &kp AMPS          &kp AT_SIGN       &kp DOLLAR           &kp QUESTION         &kp ESC
                   &ht RBKT LBKT     &kp LS(Q)            &kp LS(W)        &kp LS(F)         &kp LS(P)           &kp LS(B)                             &none   &none                               &kp RS(J)     &kp RS(L)         &kp RS(U)         &kp RS(Y)            &kp SEMICOLON        &ht RBKT LBKT
