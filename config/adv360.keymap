@@ -53,7 +53,7 @@
                   &ht RPAR LPAR               &kp Q          &kp W           &kp F           &kp P             &kp B            &kp LG(LC(LS(NUMBER_4)))                                &kp RG(RC(RS(NUMBER_4)))            &kp J     &kp L             &kp U             &kp Y          &kp COLON          &ht RPAR LPAR
                   &ht EQUAL ENTER             &kp A          &kp R           &kp S           &kp T             &kp G            &kp LEFT_ALT   &kp LG(C) &kp LG(V) &kp RG(V) &kp RG(C)  &kp RIGHT_ALT                       &kp M     &kp N             &kp E             &kp I          &kp O              &ht EQUAL ENTER
                   &htl 2 UNDER                &kp Z          &kp X           &kp C           &kp D             &kp V                &none  &none  &kp LCTRL  &none &none  &kp RCTRL &none &none                             &kp K     &kp H             &kp DOT           &kp COMMA      &kp SINGLE_QUOTE   &htl 2 UNDER
-                  &kp LG(S)                   &kp LG(SLASH)  &kp LS(ENTER)   &kp LEFT_ARROW  &kp RIGHT_ARROW             &htl 1 SPACE   &kp BACKSPACE  &kp LEFT_COMMAND  &kp RIGHT_COMMAND  &kp BACKSPACE  &htl 1 SPACE               &kp RIGHT_ARROW   &kp LEFT_ARROW    &kp RS(ENTER)  &kp RG(SLASH)      &kp RG(S)
+                  &kp LG(S)                   &kp LG(SLASH)  &kp LS(ENTER)   &kp LEFT_ARROW  &kp RIGHT_ARROW             &lt 1 SPACE   &kp BACKSPACE  &kp LEFT_COMMAND  &kp RIGHT_COMMAND  &kp BACKSPACE  &lt 1 SPACE                 &kp RIGHT_ARROW   &kp LEFT_ARROW    &kp RS(ENTER)  &kp RG(SLASH)      &kp RG(S)
             >;
         };
 
