@@ -59,11 +59,11 @@
 
         layer_symbols {
             bindings = <
-                  &kp ESC          &kp EXCL         &kp PRCNT        &kp HASH             &kp BACKSLASH         &kp SEMICOLON                        &kp PIPE              &kp PIPE                   &kp SEMICOLON        &kp BACKSLASH        &kp HASH             &kp PERCENT   &kp EXCLAMATION  &kp ESC
-                  &ht RBRC LBRC    &kp EQUAL        &kp PLUS         &kp LG(LEFT_ARROW)   &kp LG(RIGHT_ARROW)   &macro_start_enter            &kp LG(LS(NUMBER_4))  &kp RG(RS(NUMBER_4))              &macro_start_enter   &kp RG(RIGHT_ARROW)  &kp RG(LEFT_ARROW)   &kp PLUS      &kp EQUAL        &ht RBRC LBRC
-                  &kp PLUS         &kp UNDER        &kp MINUS        &kp LA(LEFT_ARROW)   &kp LA(RIGHT_ARROW)   &macro_end_enter         &none  &kp LG(F)   &trans  &trans  &kp RG(F)  &none          &macro_end_enter     &kp RA(RIGHT_ARROW)  &kp RA(LEFT_ARROW)   &kp MINUS     &kp UNDER        &kp PLUS
-                  &kp MINUS        &kp KP_MULTIPLY  &kp SLASH        &kp LA(BACKSPACE)    &kp LA(DEL)           &kp LG(D)            &trans  &trans  &trans  &trans  &trans &trans &trans &trans      &kp LG(D)            &kp RA(DEL)          &kp RA(BACKSPACE)    &kp SLASH     &kp KP_MULTIPLY  &kp MINUS
-                  &kp LG(A)        &kp LS(LG(Z))    &kp LG(Z)        &kp UP_ARROW         &kp DOWN_ARROW                                  &kp TAB  &kp LS(TAB)  &trans   &trans &kp RS(TAB)  &kp TAB                       &kp DOWN_ARROW       &kp UP_ARROW         &kp RG(Z)     &kp RS(RG(Z))    &kp RG(S)
+                  &kp ESC          &kp EXCL         &kp PRCNT            &kp CARET            &kp BACKSLASH         &kp SEMICOLON                        &kp PIPE              &kp PIPE                   &kp SEMICOLON        &kp BACKSLASH        &kp HASH             &kp PERCENT         &kp EXCLAMATION  &kp ESC
+                  &ht RBRC LBRC    &kp HASH         &kp LG(LEFT_ARROW)   &kp UP_ARROW         &kp LG(RIGHT_ARROW)   &macro_start_enter            &kp LG(LS(NUMBER_4))  &kp RG(RS(NUMBER_4))              &macro_start_enter   &kp RG(RIGHT_ARROW)  &kp UP_ARROW         &kp RG(LEFT_ARROW)  &kp HASH         &ht RBRC LBRC
+                  &kp PLUS         &kp KP_MULTIPLY  &kp LA(LEFT_ARROW)   &kp DOWN_ARROW       &kp LA(RIGHT_ARROW)   &macro_end_enter         &none  &kp LG(F)   &trans  &trans  &kp RG(F)  &none          &macro_end_enter     &kp RA(RIGHT_ARROW)  &kp DOWN_ARROW       &kp RA(LEFT_ARROW)  &kp KP_MULTIPLY  &kp PLUS
+                  &kp MINUS        &kp SLASH        &kp LA(BACKSPACE)    &kp EQUAL            &kp LA(DEL)           &kp LG(D)            &trans  &trans  &trans  &trans  &trans &trans &trans &trans      &kp LG(D)            &kp RA(DEL)          &kp EQUAL            &kp RA(BACKSPACE)   &kp SLASH        &kp MINUS
+                  &kp LG(A)        &kp LS(LG(Z))    &kp LG(Z)            &kp LESS_THAN        &kp GREATER_THAN                           &kp TAB  &kp LS(TAB)  &trans   &trans &kp RS(TAB)  &kp TAB                            &kp LESS_THAN        &kp GREATER_THAN     &kp RG(Z)           &kp RS(RG(Z))    &kp RG(A)
             >;
         };
 
